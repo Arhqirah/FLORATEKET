@@ -20,3 +20,8 @@ main {
 footer {
   background-color: #16352f;
 }
+h1 {
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
