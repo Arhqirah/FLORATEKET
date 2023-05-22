@@ -1,27 +1,42 @@
 /*********** HEADER **************/
 
 header {
-  background-color: #16352f;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+nav a:hover {
+  color: black;
+  font-weight: bolder;
 }
 
 /*********** BODY **************/
 
 body {
-  background-color: #fcfaee;
+  background-image: url(/IMAGES/Background.png);
+}
+main {
+  background-image: url(/IMAGES/Background.png);
 }
 
 /*********** MAIN **************/
 
-main {
-  background-color: #fcfaee;
-}
-
-/*********** FOOTER **************/
-footer {
-  background-color: #16352f;
-}
 h1 {
-  color: #fcfaee;
+  color: black;
   font-weight: 700;
   text-align: center;
 }
@@ -34,4 +49,11 @@ p {
   color: black;
   font-weight: 700;
   text-align: center;
+}
+.white {
+  color: white;
+}
+/*********** FOOTER **************/
+footer {
+  background-color: black;
 }
