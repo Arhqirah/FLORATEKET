@@ -1,3 +1,23 @@
+body {
+  background-image: url(/IMAGES/Background.png);
+}
+
+.text-limit {
+  width: 650px;
+  text-align: start;
+}
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+p {
+  font-size: 2rem;
+  color: white;
+}
+.black {
+  color: black;
+}
+
 .planterForside {
   display: grid;
   grid-template-columns: 1fr;
@@ -17,4 +37,38 @@
 section {
   height: 80px;
   background-color: #8c8d6e;
+  margin-bottom: 80px;
+}
+.botanisk_paradis {
+  display: grid;
+  grid-template-columns: repeat(2) 1fr;
+}
+.textbox:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 10;
+  margin-left: 100px;
+}
+.textbox:nth-child(2) {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  z-index: 0;
+}
+
+.bonsai_container {
+  display: grid;
+  grid-template-columns: repeat(2) 1fr;
+}
+.bonsai:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 10;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 50px;
+}
+.bonsai:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+  z-index: 0;
 }

@@ -86,17 +86,17 @@ a:hover {
 h1 {
   color: black;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
 }
 h2 {
   color: black;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
 }
 p {
   color: black;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   font-family: Bodoni 72 Oldstyle;
 }
 .white {
@@ -105,4 +105,6 @@ p {
 /*********** FOOTER **************/
 footer {
   background-color: #8c8d6e;
+  height: 480px;
+  width: auto;
 }
