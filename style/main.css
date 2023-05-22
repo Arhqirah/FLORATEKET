@@ -62,16 +62,7 @@ a {
   }
 }
 
-/*********** BODY **************/
-
-body {
-  background-image: url(/IMAGES/Background.png);
-}
-main {
-  background-image: url(/IMAGES/Background.png);
-}
-
-/*********** MAIN **************/
+/*********** Texts **************/
 
 h1 {
   color: black;
