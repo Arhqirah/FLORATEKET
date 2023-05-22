@@ -103,8 +103,35 @@ p {
   color: white;
 }
 /*********** FOOTER **************/
+.footer_text {
+  font-size: 1rem;
+}
 footer {
   background-color: #8c8d6e;
   height: 480px;
   width: auto;
+}
+.footer_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.foot:nth-child(1) {
+  margin-top: 80px;
+  margin-left: 150px;
+  grid-column: 1;
+}
+.foot:nth-child(2) {
+  margin-top: 80px;
+  margin-left: 100px;
+  grid-column: 2;
+}
+.foot:nth-child(3) {
+  margin-top: 80px;
+  margin-left: 0;
+  grid-column: 3;
+}
+.foot:nth-child(4) {
+  margin-top: 80px;
+  margin-left: -100px;
+  grid-column: 4;
 }
