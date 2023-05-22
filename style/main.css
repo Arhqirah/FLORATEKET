@@ -2,16 +2,19 @@
   font-family: Oldstyle;
   src: url(/Oldstyle-Bold.woff) format("woff");
 }
-
+body {
+  margin: 0;
+}
 /*********** HEADER **************/
 .banner {
   background: rgb(255, 255, 255);
-  padding: 2rem;
+  padding: 0.5rem;
+  padding-right: 5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 20px 40px;
+  gap: 20px 20px;
 }
 .logo img {
   height: 70px;
@@ -21,6 +24,7 @@
 .main-menu ul {
   list-style: none;
   padding: 0;
+
   display: flex;
   gap: 55px;
 }
@@ -100,5 +104,5 @@ p {
 }
 /*********** FOOTER **************/
 footer {
-  background-color: black;
+  background-color: #8c8d6e;
 }
