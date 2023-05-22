@@ -1,7 +1,11 @@
-/*********** HEADER **************/
+@font-face {
+  font-family: Oldstyle;
+  src: url(/Oldstyle-Bold.woff) format("woff");
+}
 
+/*********** HEADER **************/
 .banner {
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -9,12 +13,16 @@
   align-items: center;
   gap: 20px 40px;
 }
+.logo img {
+  height: 70px;
+  width: auto;
+}
 
 .main-menu ul {
   list-style: none;
   padding: 0;
   display: flex;
-  gap: 25px;
+  gap: 55px;
 }
 
 /* burgermenu */
@@ -33,7 +41,14 @@
   scale: 1.2;
 }
 a {
+  color: rgb(73, 73, 73);
   text-decoration: none;
+  font-family: "Oldstyle", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+a:hover {
+  color: #000;
 }
 
 @media (max-width: 600px) {
@@ -78,6 +93,7 @@ p {
   color: black;
   font-weight: 700;
   text-align: center;
+  font-family: Bodoni 72 Oldstyle;
 }
 .white {
   color: white;
