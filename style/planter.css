@@ -34,7 +34,7 @@ p {
   z-index: 0;
   background-color: #8c8d6e;
 }
-section {
+.section1 {
   height: 80px;
   background-color: #8c8d6e;
   margin-bottom: 80px;
@@ -71,4 +71,44 @@ section {
   grid-column: 2;
   grid-row: 1;
   z-index: 0;
+}
+
+.menuBar {
+  height: 172px;
+  margin-bottom: 80px;
+}
+.menuBar_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.menu:nth-child(1) {
+  grid-column: 1;
+}
+.menu:nth-child(2) {
+  grid-column: 2;
+}
+.menu:nth-child(3) {
+  grid-column: 3;
+}
+.menu {
+  position: relative;
+}
+
+.menu a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+}
+.menu a:hover {
+  filter: brightness(120%);
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 5px 10px;
+  font-size: 36px;
 }
