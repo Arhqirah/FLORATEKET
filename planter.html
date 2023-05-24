@@ -35,7 +35,7 @@
                 <img src="IMAGES/Planter.png" alt="">
             </div>
         </div>
-        <section>
+        <section class="section1">
         </section>
         <div class="botanisk_paradis">
             <div class="textbox">
@@ -60,8 +60,11 @@
         </div>
         <div class="bonsai_container">
             <div class="bonsai">
-                <img src="IMAGES/Bonsai.png" alt="plante">
+                <img id="bonsaiImage" class="border" src="IMAGES/Bonsai.png" alt="plante">
+                <button onclick="toggleImage()">Næste</button>
             </div>
+
+
             <div class="bonsai">
                 <h1 class="black">BONSAI</h1>
                 <p class="text-limit black">Vores butik er stolt af at tilbyde en unik samling af Bonsai-træer, der
@@ -74,6 +77,28 @@
                 </p>
             </div>
         </div>
+        <section class="menuBar">
+            <div class="menuBar_grid">
+                <div class="menu">
+                    <a href="om_os.html">
+                        <img src="IMAGES/roses.png" alt="png">
+                        <span class="image-text">Abonnement</span>
+                    </a>
+                </div>
+                <div class="menu">
+                    <a href="buketter.html">
+                        <img src="IMAGES/buketter.png" alt="png">
+                        <span class="image-text">Blomster & Buketter</span>
+                    </a>
+                </div>
+                <div class="menu">
+                    <a href="planter.html">
+                        <img src="IMAGES/nature.png" alt="png">
+                        <span class="image-text">Planter</span>
+                    </a>
+                </div>
+            </div>
+        </section>
 
 
 
@@ -115,6 +140,7 @@
         </div>
 
     </footer>
+    <script src="JS/image.js"></script>
     <script src="JS/nav.js"></script>
 </body>
 
